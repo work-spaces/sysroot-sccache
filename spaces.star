@@ -3,7 +3,7 @@
 """
 
 checkout.add_platform_archive(
-    name = "sccache",
+    rule = { "name": "sccache" },
     platforms = {
         "macos_x86_64": {
             "url": "https://github.com/mozilla/sccache/releases/download/v0.8.0/sccache-v0.8.0-x86_64-apple-darwin.tar.gz",
